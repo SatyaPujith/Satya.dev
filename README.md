@@ -103,10 +103,10 @@ Create a `.env.local` file in the root directory:
 VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-4. **Add your assets**
-- Place your profile image as `image.png` in the `public` folder
-- Add award/certificate images in `public/profile/` folder (1.png, 2.png, 3.png, etc.)
-- Add your resume PDF as `Satya Pujith Resume.pdf` in the `public` folder
+4. **Add your assets** (Already set up!)
+- Profile image: `public/image.png`
+- Award/certificate images: `public/profile/1.png`, `public/profile/2.png`, `public/profile/3.png`
+- Resume PDF: `public/Satya Pujith Resume.pdf`
 
 5. **Run the development server**
 ```bash
