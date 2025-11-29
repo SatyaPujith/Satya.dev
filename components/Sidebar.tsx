@@ -97,7 +97,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, onChangeView }) => {
                         {/* Menu Item Text */}
                         <div className="relative flex-1">
                             <span className={`
-                                text-5xl md:text-8xl font-serif tracking-tighter transition-all duration-500
+                                text-4xl md:text-6xl font-serif tracking-tighter transition-all duration-500
                                 ${currentView === item.id 
                                     ? 'text-white italic translate-x-4' 
                                     : 'text-zinc-700 group-hover/item:text-white group-hover/item:translate-x-4'}
