@@ -435,8 +435,8 @@ const App: React.FC = () => {
             <div className="animate-in fade-in duration-1000">
                 <div className="mb-24 flex items-baseline justify-between">
                     <div>
-                        <h2 className="text-[8vw] font-serif italic text-zinc-800 leading-none">Selected</h2>
-                        <h2 className="text-[8vw] font-serif text-white leading-none ml-12 md:ml-20">Works</h2>
+                        <h2 className="text-4xl md:text-6xl font-serif italic text-zinc-800 leading-none">Selected</h2>
+                        <h2 className="text-4xl md:text-6xl font-serif text-white leading-none ml-12 md:ml-20">Works</h2>
                     </div>
                     <span className="hidden md:block font-mono text-xs text-zinc-600 uppercase tracking-widest">
                         Total {PROJECTS.length} Projects
